@@ -1,0 +1,7 @@
+<p>ciao appcomponent</p>
+<button routerLink="/pagina1">Vai a Pagina 1</button>
+<button routerLink="/pagina2">Vai a Pagina 2</button>
+<div *ngFor="let studente of studenti">
+  <app-studente [studente]="studente"></app-studente>
+</div>
+<router-outlet></router-outlet>
